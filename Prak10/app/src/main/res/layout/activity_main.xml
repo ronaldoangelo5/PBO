@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi menghitung volume"
+        android:id="@+id/judul"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Jari-jari"
+        android:id="@+id/textView"
+        android:layout_below="@id/judul"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Isi Jari-jari"
+        android:layout_below="@id/textView"
+        android:id="@+id/jari"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textTinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Tinggi"
+        android:layout_below="@id/jari"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Isi Tinggi"
+        android:layout_below="@id/textTinggi"
+        android:id="@+id/tinggi"
+        android:paddingLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tinggi"
+        android:paddingLeft="10dp"
+        android:text="HITUNG" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:layout_below="@id/hitung"
+        android:id="@+id/volume"
+        android:paddingLeft="10dp"
+        />
+
+    </RelativeLayout>
